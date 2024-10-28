@@ -432,6 +432,29 @@ HTML
                   <p>Posisi dan deskripsi singkat.</p>
               </div>
           </section>
+        <div class="container">
+            <section class="header">
+                <h1>Hubungi Kami</h1>
+                <p>Isi formulir di bawah ini untuk menghubungi kami</p>
+            </section>
+            <section class="contact-form">
+                <form action="#" method="POST">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="phone">Telepon (Opsional):</label>
+                    <input type="text" id="phone" name="phone">
+    
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Kirim</button>
+                </form>
+            </section>
+        </div>
       </div>
   </body>
   </html>
@@ -523,5 +546,44 @@ CSS
         width: 100%;
         border-radius: 50%;
     }
+    
+        /* Contact Form */
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+    }
+    
+    .contact-form label {
+        display: block;
+        margin-top: 15px;
+        color: #333;
+    }
+    
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    .contact-form button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+        background-color: #555;
+    }
+
+![Screenshot 2024-10-28 135932](https://github.com/user-attachments/assets/7f2a75bd-c7c3-437b-8c4b-e2a6b58a562e)
+
+
 
 
