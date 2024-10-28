@@ -505,23 +505,23 @@ CSS
         border-radius: 8px;
     }
   
-  /* Team Section */
-  .team {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      justify-content: space-around;
-  }
-  
-  .team-member {
-      width: 100%;
-      max-width: 200px;
-      text-align: center;
-  }
-  
-  .team-member img {
-      width: 100%;
-      border-radius: 50%;
-  }
+    /* Team Section */
+    .team {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .team-member {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+    }
+    
+    .team-member img {
+        width: 100%;
+        border-radius: 50%;
+    }
 
 
